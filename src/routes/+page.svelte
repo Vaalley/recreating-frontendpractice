@@ -3,6 +3,7 @@
 
 <script>
 	import Cards from '../components/Cards.svelte';
+	import Footer from '../components/Footer.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Navbar from '../components/Navbar.svelte';
 	import { cards } from '../routes/+page';
@@ -16,5 +17,5 @@
 	<Navbar />
 	<Hero />
 </header>
-
 <Cards />
+<Footer />

@@ -3,7 +3,7 @@
 </script>
 
 {#if cards && cards.length}
-	<div class="grid grid-cols-4 gap-8 mx-[8vw] mt-20">
+	<div class="grid grid-cols-4 gap-8 mx-[8vw] my-20">
 		{#each cards as card}
 			<div class="border-2 border-black card-container relative">
 				<img src={card.imglink} alt="Project preview" />
@@ -16,21 +16,21 @@
 				>
 				{#if card.level == 1}
 					<p
-						class="absolute top-[-7px] right-[-7px] text-base font-archivo font-bold text-grey bg-green px-2 py-1 border-2 border-black z-10 w-max"
+						class="absolute top-[-8px] right-[-8px] text-base font-archivo font-bold text-grey bg-green px-2 py-1 border-2 border-black z-10 w-max"
 					>
 						Level {card.level}
 					</p>
 				{/if}
 				{#if card.level == 2}
 					<p
-						class="absolute top-[-7px] right-[-7px] text-base font-archivo font-bold text-grey bg-yellow px-2 py-1 border-2 border-black z-10 w-max"
+						class="absolute top-[-8px] right-[-8px] text-base font-archivo font-bold text-grey bg-yellow px-2 py-1 border-2 border-black z-10 w-max"
 					>
 						Level {card.level}
 					</p>
 				{/if}
 				{#if card.level == 3}
 					<p
-						class="absolute top-[-7px] right-[-7px] text-base font-archivo font-bold text-grey bg-orange px-2 py-1 border-2 border-black z-10 w-max"
+						class="absolute top-[-8px] right-[-8px] text-base font-archivo font-bold text-grey bg-orange px-2 py-1 border-2 border-black z-10 w-max"
 					>
 						Level {card.level}
 					</p>
