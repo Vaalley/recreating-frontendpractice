@@ -17,7 +17,6 @@ export async function load() {
 
     if (data) {
         cards = data;
-        console.log(data);
         return {
             status: 200,
         };
